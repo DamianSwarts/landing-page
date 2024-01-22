@@ -24,7 +24,8 @@ body{
 }
 
 .logo,
-.main-text{
+.main-text,
+button{
     color: #F9FAF8;
 }
 
@@ -52,4 +53,12 @@ li,
 .secondary-text{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.first-button{
+    background: #3882F6;
+    padding:3px;
+    width: 90px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
 }
