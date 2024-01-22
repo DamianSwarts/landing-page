@@ -7,9 +7,10 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    padding: 10px 100px;
+    padding: 10px 200px;
     background: #1F2937;
     max-width: 100%;
+    justify-items: center;
 }
 
 .header{
@@ -40,7 +41,13 @@ li{
 
 .hero{
     display: flex;
-    flex-direction:column;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
     width: 400px;
 }
 .main-text{
@@ -61,4 +68,9 @@ li,
     width: 90px;
     border: 1px solid #3882F6;
     border-radius: 5px;
+}
+
+img{
+    margin: 20px 0;
+    padding: 20px 0;
 }
