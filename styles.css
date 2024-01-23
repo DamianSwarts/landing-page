@@ -4,11 +4,15 @@ body{
     margin: 0;
 }
 
+.container,
+footer{
+    background: #1F2937;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     padding: 10px 200px;
-    background: #1F2937;
     max-width: 100%;
     justify-items: center;
 }
@@ -27,7 +31,8 @@ body{
 .logo,
 .main-text,
 .call-to-action,
-button{
+button,
+footer{
     color: #F9FAF8;
 }
 
@@ -173,4 +178,13 @@ button{
 
 .secondary-text-two{
     margin: 0 0 30px 10%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
 }
