@@ -102,3 +102,32 @@ h3,
 .image img{
     padding-bottom: 10px;
 }
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    padding: 16px;
+    background:#E5E7EB;
+    text-align:center;
+}
+
+.quote{
+    margin-bottom: 0;
+    font-size: 36px;
+    font-style:italic;
+    max-width: 539px;
+}
+
+.quote-author{
+    margin: 0 3% 30px 33%;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.quote,
+.quote-author{
+    color:#1F2937;
+}
