@@ -26,6 +26,7 @@ body{
 
 .logo,
 .main-text,
+.call-to-action,
 button{
     color: #F9FAF8;
 }
@@ -46,10 +47,9 @@ li{
 }
 
 .text{
-    display: flex;
-    flex-direction: column;
     width: 400px;
 }
+
 .main-text{
     font-size: 48px;
     font-weight: bolder;
@@ -63,11 +63,9 @@ li,
 }
 
 .first-button{
-    background: #3882F6;
     padding:3px;
     width: 90px;
     border: 1px solid #3882F6;
-    border-radius: 5px;
 }
 
 .first-image{
@@ -130,4 +128,49 @@ h3,
 .quote,
 .quote-author{
     color:#1F2937;
+}
+
+.call-to-action,
+button{
+    background: #3882F6;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10%;
+}
+
+.second-button{
+    border: 1px solid #F9FAF8;
+    width: 90px;
+    align-self: center;
+    padding: 5px;  
+    margin: auto 10%; 
+}
+
+.call-to-action,
+.first-button,
+.second-button{
+    border-radius: 6px;
+}
+
+.text,
+.text-two{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-two{
+    width: 800px;
+}
+
+.main-text-two{
+    font-size: 20px;
+    font-weight:bolder;
+    margin: 30px 0 0 10%;
+}
+
+.secondary-text-two{
+    margin: 0 0 30px 10%;
 }
